@@ -1,0 +1,281 @@
+# =====================================================
+# .NET Core & ASP.NET Core
+# =====================================================
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww]in32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Mono
+mono_crash.*
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Temporary & cache files
+*.tmp
+*.temp
+*._*
+*.cache
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================================
+# Application Specific
+# =====================================================
+
+# Serilog logs
+logs/
+logs/*
+
+# Configuration secrets
+appsettings.Local.json
+appsettings.*.Local.json
+*.secrets.json
+.env
+.env.*
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# Flyway (if it contains passwords)
+db/flyway.conf
+db/flyway.user.conf
+
+# =====================================================
+# Database
+# =====================================================
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# =====================================================
+# Test & Coverage
+# =====================================================
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.coveragereport/
+
+# Coverage tools
+coverage/
+*.info
+.nyc_output/
+*.lcov
+
+# NCrunch
+_ReSharper*/
+*.[Rr]e[Ss]harper
+_nCrunch*/
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# DotCover
+*.dotCover.settings
+*.dotCover
+*.dcvr
+
+# AxoCover
+.axoCover/
+*.visualstudio.com/
+
+# OpenCover
+opencover.xml
+
+# ReportGenerator
+report/
+
+# =====================================================
+# OS Generated Files
+# =====================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# =====================================================
+# IDE & Editor Specific
+# =====================================================
+
+# Vim
+*.swp
+*.swo
+*~
+.tags
+.tags1
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio for Mac
+*.userprefs
+*.usertasks
+
+# =====================================================
+# Build Tools & Dependencies
+# =====================================================
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bower
+bower_components/
+
+# JSPM
+jspm_packages/
+
+# Gulp
+gulp-tasks/
+
+# Grunt
+.grunt/
+
+# Webpack
+dist/
+build/
+
+# =====================================================
+# Certificates & Security
+# =====================================================
+
+*.pfx
+*.p12
+*.crt
+*.key
+*.pem
+*.jks
+
+# =====================================================
+# Backup & Temporary Files
+# =====================================================
+
+*.backup
+*.save
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+
+# =====================================================
+# Misc
+# =====================================================
+
+# Azure
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishProfiles/
+
+# IIS
+wwwroot/
+wwwroot/dist/
+
+# Generated code
+Generated/
+*.g.cs
+*.g.i.cs
+*.xsd.cs
+*.wsdl.cs
+
+# ClickOnce
+publish/
+*.manifest
+
+# WiX Toolset
+*.wixproj
+*.wixobj
+*.wixout
+*.wixpdb
+
+# InstallShield
+*.ism
+*.isr
+*.isl
+
+# UWP
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
